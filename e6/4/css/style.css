@@ -8,20 +8,20 @@ body{
   margin-top: -50px;
 }
 .tile1, .tile2, .tile3 {
-  width: 100px;
-  height: 100px;
-  margin: -10px;
+  width: 300px;
+  height: 300px;
+  margin: -40px;
   float: left;
   opacity: .8;
 
 }
 .tile1{
-  background-color: red;
+  background-color: #FF8499;
 
 }
 .tile2{
-  background-color: rebeccapurple;
+  background-color: #FFEA84;
 }
 .tile3{
-  background-color: orange
+  background-color: #99FF84
 }
