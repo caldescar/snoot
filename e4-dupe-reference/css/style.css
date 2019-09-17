@@ -1,0 +1,11 @@
+.intro{
+  font-size: 3em;
+}
+#special{
+  font-size: 4em;
+  color: blue
+}
+#container{
+    width: 50%;
+    margin: 100px auto;
+}
