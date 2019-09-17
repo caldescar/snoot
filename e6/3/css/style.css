@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black
+}
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3 {
+  margin: 1px;
+  float: left;
+
+
+}
+.tile1{
+  background-color: #00DC82;
+  width: 100px;
+  height: 100px;
+
+
+}
+.tile2{
+  background-color: #00C8DC;
+  width: 100px;
+  height: 200px;
+  opacity: .8;
+  transform: rotate(20deg)
+
+}
+.tile3{
+  background-color: #005ADC;
+  width: 100px;
+  height: 300px;
+  opacity: .6;
+  transform: rotate(40deg)
+}
