@@ -8,20 +8,34 @@ body{
   margin-top: -50px;
 }
 .tile1, .tile2, .tile3 {
-  width: 300px;
-  height: 300px;
-  margin: -40px;
   float: left;
-  opacity: .8;
+  opacity: .9;
+  margin: 15px;
 
 }
 .tile1{
   background-color: #FF8499;
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+
 
 }
 .tile2{
   background-color: #FFEA84;
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
 }
 .tile3{
-  background-color: #99FF84
+  background-color: #99FF84;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
 }

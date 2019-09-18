@@ -1,6 +1,7 @@
 body{
   margin: 0;
   overflow-x: hidden;
+  background-color: black
 }
 #container {
   width: 120%;
@@ -10,18 +11,31 @@ body{
 .tile1, .tile2, .tile3 {
   width: 100px;
   height: 100px;
-  margin: -10px;
+  margin: 15px;
   float: left;
-  opacity: .8;
+  opacity:;
 
 }
 .tile1{
-  background-color: red;
+  background-color: black;
+  border-bottom: 50px solid #CCFFFF;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
 
 }
 .tile2{
-  background-color: rebeccapurple;
+  background-color: black;
+  width: 100px;
+	height: 50px;
+	transform: skew(25deg);
+	background: #CCCCFF;
 }
 .tile3{
-  background-color: orange
+  background-color: black;
+  width: 100px;
+	height: 50px;
+	transform: skew(-25deg);
+	background: #CC99FF;
 }
