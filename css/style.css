@@ -1,3 +1,19 @@
 body {
   background-color: #EAEDED;
+  font-family: sans-serif;
+  text
+}
+a{
+  color: #2496c7;
+  text-decoration: underline;
+  font-size: 40px;
+  transition: color .5s ease;
+
+}
+a:hover {
+  color: #09277a;
+
+}
+a:visited {
+  color: #6c0b87
 }
