@@ -14,9 +14,11 @@ a{
 
 }
 a:hover {
-  color: #FFC300;
 
 }
 a:visited {
   color: #FF5733
+}
+b{
+  font-weight:700;
 }
