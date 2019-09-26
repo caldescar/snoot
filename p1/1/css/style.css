@@ -7,18 +7,17 @@ body {
   text-align: center;
 
 }
-a{
+a {
   color: #FDFEFE;
   text-decoration: underline;
   transition: color .5s ease;
-
+}
+a:visited {
+  color: #FF5733
 }
 a:hover {
   color: #FFC300;
 
-}
-a:visited {
-  color: #FF5733
 }
 b{
   font-weight:700;
