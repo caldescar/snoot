@@ -1,0 +1,41 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color: #333333;
+  margin: 0
+}
+#container{
+  width: 600px;
+
+}
+.cf:before, .cf.after{
+  content:" ";
+  display: table;
+}
+.cf:after {
+  clear:both;
+}
+.sidebar, .midbar, .square{
+  float: left;
+  border: 10px solid white;
+  background-color: maroon;
+}
+.sidebar {
+  width: 100px;
+  height: 400px;
+
+}
+.midbar{
+  width: 400px;
+  height: 100px;
+
+}
+.square{
+  width: 200px;
+  height:300px;
+}
+.center{
+  width:400px;
+  float:left;
+}

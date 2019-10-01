@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+}
+#container{
+  width: 400px;
+  height: 600px;
+
+}
+.one, .three, .five, .seven, .nine{
+  background-color: maroon;
+  border: 5px solid white;
+  float:left;
+}
+.one{
+  width: 100px;
+  height: 200px;
+}
+.three{
+  width: 100px;
+  height: 100px;
+}
+.five{
+  width: 200px;
+  height: 100px;
+}
+.seven{
+  width: 100px;
+  height: 400px;
+}
+.nine{
+  width: 200px;
+  height: 400px;
+}
+.left, .center{
+  width: 100px;
+  float:left;
+}
+.right {
+  width: 200px;
+  float:left;
+}
