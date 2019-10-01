@@ -1,0 +1,36 @@
+body{
+  background-color: #333333;
+
+}
+#container{
+  width: 800px;
+
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: maroon;
+  margin: 0 0 70px;
+  float: left
+}
+.content{
+  width:690px;
+  height: 400px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: maroon;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: maroon;
+}
+.notes{
+  width: 690px;
+  height: 50px;
+  float: left;
+  background-color: maroon;
+  margin-bottom: 70px;
+}
