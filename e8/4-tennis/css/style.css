@@ -1,0 +1,31 @@
+body{
+  background-color: #333333;
+
+}
+#container{
+  width: 900px;
+
+}
+.sidebar {
+  width: 90px;
+  height: 500px;
+  background-color: maroon;
+  margin: 0 5px 5px 0;
+  float: left
+}
+.midbar{
+  width:610px;
+  height: 192.5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+  background-color: maroon;
+}
+.square{
+  width: calc(605px / 2);
+  height: calc(605px / 2);
+  float: left;
+  background-color: pink;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
