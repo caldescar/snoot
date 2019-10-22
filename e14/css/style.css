@@ -1,0 +1,21 @@
+body{
+  background-color: tomato;
+}
+.intro{
+  font-size: 3em;
+}
+#special{
+  font-size: 4em;
+  color: blue
+}
+#container{
+    width: 50%;
+    margin: 100px auto;
+}
+@media only screen and (max-width: 1000px) {
+  body{background-color: pink;}
+}
+@media only screen and (max-width: 600px) {
+  body{background-color: lightblue;}
+}
+/* This shit is hella stack oriented. The stuff at the top takes priority over the stuff underneath. Higher the width, the higher is should be in the list */
