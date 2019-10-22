@@ -16,6 +16,7 @@ body{
   width: calc(100% - 400px);
   margin: 0 auto;
   padding: 40px;
+  background-color: white;
 }
 h1{
   font-family: source-serif-pro, serif;
