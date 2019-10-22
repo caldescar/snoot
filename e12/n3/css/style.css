@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  background-image: url("rrsherlock_repeat_preview.png");
+  background-repeat: repeat;
+}
+
+#container{
+}
+.black{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:10px 10px 100px;
+}
+.text{
+  width: calc(100% - 400px);
+  margin: 0 auto;
+  padding: 40px;
+}
+h1{
+  font-family: source-serif-pro, serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 6vw;
+  margin: 15% auto 0;
+
+}
+h2{
+  font-family: source-serif-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+  margin: auto;
+}
+h3{
+  font-family: source-serif-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vw;
+  text-align:center;
+  margin: 30px 0 0 0;
+}
+h4{
+  font-family: source-serif-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 3vw;
+  margin: 5px;
+  text-transform: uppercase;
+}
+p{
+  font-family: source-serif-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5vw;
+
+}
