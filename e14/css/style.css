@@ -6,16 +6,57 @@ body{
 }
 #special{
   font-size: 4em;
-  color: blue
+  color: orange;
 }
 #container{
-    width: 50%;
-    margin: 100px auto;
+  width: 70vw;
+  margin: 25px auto;
 }
-@media only screen and (max-width: 1000px) {
+p{
+  margin: 10px auto;
+  font-family: stratos, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:
+}
+h1{
+  font-family: stratos, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h2{
+  font-family: stratos, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+h3{
+  font-family: stratos, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 5vw auto;
+}
+ul{
+  margin: 10px auto;
+  font-family: stratos, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:
+}
+@media only screen and (max-width: 1450px) {
   body{background-color: pink;}
 }
 @media only screen and (max-width: 600px) {
   body{background-color: lightblue;}
+  #container{
+    width: 85%;
+    margin: 10px auto;
+  }
+  .intro{
+    font-size: 2em;
+  }
+  #special{
+    font-size: 3em;
+    color: blue;
+  }
 }
 /* This shit is hella stack oriented. The stuff at the top takes priority over the stuff underneath. Higher the width, the higher is should be in the list */
