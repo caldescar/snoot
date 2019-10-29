@@ -38,6 +38,11 @@ body{
   border-style: solid;
   padding: 10px;
 }
+.puppy {
+  width: 60%;
+  height: auto;
+  float: left;
+}
 h1{
   font-family: fenway-park-jf, sans-serif;
   font-weight: 400;
@@ -55,4 +60,12 @@ h2{
   font-size: 2vw;
   margin-top: 0;
   margin-bottom: 10px;
+}
+h3 {
+  margin-left: 50vw;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 2vw;
 }
