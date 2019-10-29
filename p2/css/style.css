@@ -25,18 +25,12 @@ body{
   height: auto;
   background-color: #434B53;
   float:none;
-  
 }
 .name {
   margin: auto;
   width: 80%;
   height: auto;
   background-color: #434B53;
-  font-family: acumin-pro, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: white;
-  font-size: 2vw;
   border: 10px;
   border-style: solid;
   padding: 10px;
@@ -44,9 +38,14 @@ body{
 
 }
 .puppy {
-  width: 60%;
-  height: 90%;
+  width: 57%;
+  height: auto;
   float: left;
+}
+.stupid{
+  float: left;
+  background-color: #434B53;
+
 }
 h1{
   font-family: fenway-park-jf, sans-serif;
@@ -64,7 +63,7 @@ h2{
   color: white;
   font-size: 2vw;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 4vw;
 }
 h3 {
   margin-left: 50vw;
