@@ -1,19 +1,22 @@
 body{
   margin: 0;
   background-color: #171924;
-
+  align-items: center;
+  justify-content: center;
 }
 #bg{
-  float: left;
+  float: center;
   width: 100%;
   height: auto;
 
 }
 .container{
-  float: left;
+  float: center;
   background-color: red;
-  width: 100% auto;
-  height: 1000px;
+  width: 80% auto;
+  height: 80% auto;
+  box-sizing: border-box;
+  margin: 10% auto;
 }
 .body{
   background-color: white;
@@ -21,6 +24,5 @@ body{
   height: 110px;
   border-top-left-radius: 90%;
   border-top-right-radius: 90%;
-
 
 }
