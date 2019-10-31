@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  background-color: #171924;
+
+}
+#bg{
+  float: left;
+  width: 100%;
+  height: auto;
+
+}
+.container{
+  float: left;
+  background-color: red;
+  width: 100% auto;
+  height: 1000px;
+}
+.body{
+  background-color: white;
+  width: 100px;
+  height: 110px;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+
+
+}
