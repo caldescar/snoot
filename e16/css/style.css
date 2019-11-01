@@ -10,7 +10,6 @@ body{
 }
 .container{
   float: left;
-  background-color: red;
   width: 80% auto;
   height: 80% auto;
   box-sizing: border-box;
