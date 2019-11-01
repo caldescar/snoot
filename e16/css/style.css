@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  background-color: #171924;
+}
+#bg{
+  float: center;
+  width: 100%;
+  height: auto;
+
+}
+.container{
+  float: left;
+  background-color: red;
+  width: 80% auto;
+  height: 80% auto;
+  box-sizing: border-box;
+
+}
+.body{
+  background-color: white;
+  width: 300px;
+  height: 330px;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+  margin: auto;
+
+}
+.reye{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 60px;
+  top: 140px;
+}
+.leye{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 160px;
+  top: 140px;
+}
+.mouth{
+  background-color: black;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 80px;
+  top: 220px;
+}
+
+.feets,{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 280px;
+  left: 0px;
+}
+
+.feetss{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 280px;
+}
+.feetsss{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 200px;
+  top: 280px;}
