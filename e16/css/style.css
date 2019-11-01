@@ -52,14 +52,14 @@ body{
   top: 220px;
 }
 
-.feets,{
+.feets{
   width:100px;
   height: 100px;
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  top: 280px;
   left: 0px;
+  top: 280px;
 }
 
 .feetss{
