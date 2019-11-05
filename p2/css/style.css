@@ -150,7 +150,7 @@ img{
 p{
   font-size: 2vw;
 }
-.protect, .sideeye, .outside, .lorg {
+.sideeye, .lorg {
   float: left;
   margin: 10% 10%;
   float: left;
@@ -158,14 +158,66 @@ p{
 .what, .lapdog, .smart, .protective {
   width: 70%;
   padding: 5%;
-  margin: 5% auto 5%;
-
-
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 0;
 }
 h1{
   font-size: 6vw;
 }
 h2{
   font-size: 3vw;
+}
+.protectbord{
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+  margin: 5% 15% 10% 25%;
+}
+.sidebord{
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+  margin: 5% 25% 10% 15%;
+}
+.outsidebord{
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+  margin:5% 10% 10% 15%;;
+}
+.lorgbord{
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+  margin: 5% 25% 10% 15%;
+}
+.protect{
+  float: left;
+  margin-left: -20%;
+  margin-right: 10%;
+  width: 65%;
+  margin-top: -5%;
+}
+.outside{
+  float: left;
+  margin-left: -10%;
+  margin-right: 10%;
+  width: 60%;
+  margin-top: -3%;
+}
+.smart{
+  margin-right: 10px;
+}
+.protective, .lapdog{
+  margin-left: 10px;
+}
+.sideeye, .lorg{
+  float: right;
+  margin-left: 5%;
+  margin-right: -20%;
+  width: 65%;
+  margin-top: 6%;
+  margin-bottom: 10%;
 }
 }
