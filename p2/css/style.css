@@ -172,7 +172,7 @@ h2{
   border-width: thin;
   border-color: white;
   border-style: solid;
-  margin: 5% 15% 10% 25%;
+  margin: 5% 15% 23% 25%;
 }
 .sidebord{
   border-width: thin;
@@ -219,5 +219,8 @@ h2{
   width: 65%;
   margin-top: 6%;
   margin-bottom: 10%;
+}
+.what{
+  width: 100%
 }
 }
