@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  background-color: black;
+}
+.title{
+  width: 100vw;
+  height: 90vh;
+  background-color: dodgerblue;
+  padding: 35vh 0 0 0
+}
+h1{
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.fall{
+  width: 100vw;
+  height: 90vh;
+  background-color: orange;
+  padding: 35vh 0 0 0;
+}
+.align-left{
+  text-align: left;
+  font-size: 10em;
+}
+.drizzle{
+  width: 100vw;
+  height: 90vh;
+  padding: 35vh 0 0 0;
+  background-color: #414F87;
+}
+.darkcolor{
+  color: #0B153B;
+  font-size: 10em;
+}
+.warm{
+  width: 100vw;
+  height: 90vh;
+  padding: 35vh 0 0 0;
+  background-color: #F4C64D;
+}
+.hot{
+  transition: background-color 2s ease, color 2s ease;
+  background-color: #D10000;
+  color: black;
+}
+.cool{
+  transition: background-color 2s ease, color 2s ease;
+  background-color: #D10000;
+  color: black;
+}
+.lightening{
+  width: 100vw;
+  height: 90vh;
+  padding: 35vh 0 0 0;
+  background-color: #161240;
+}
