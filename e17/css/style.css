@@ -55,14 +55,16 @@ h1{
   background-color: #D10000;
   color: black;
 }
-.cool{
-  transition: background-color 2s ease, color 2s ease;
-  background-color: #D10000;
-  color: black;
-}
+
 .lightening{
   width: 100vw;
   height: 90vh;
   padding: 35vh 0 0 0;
   background-color: #161240;
+}
+.cool{
+  transition: background-color 2s ease, color 2s ease;
+  background: url(../img/Lightning-PNG-Pic.png) repeat right bottom;
+  background-color: #161240;
+  background-size: cover;
 }

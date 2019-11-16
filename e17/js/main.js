@@ -18,6 +18,6 @@ $(document).ready(function(){
   });
 
   $('.lightening').click(function() {
-    $('.number').toggleClass('cool');
+    $('.lightening').toggleClass('cool');
   });
 });
