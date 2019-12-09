@@ -1,4 +1,4 @@
-$(document).ready(function(){
+''$(document).ready(function(){
 
 
   console.log('maybe i should get something to eat soon');
